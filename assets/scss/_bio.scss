@@ -1,0 +1,47 @@
+$colores:(negro: black,
+	blanco: white,
+	rojo-carmesi: crimson,
+);
+
+@mixin caja {
+	border-radius: 20px;
+}
+
+#bioId {
+	background-color: rgb(23, 16, 16);
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgb(131, 21, 21, 0.5)25px, rgba(131, 21, 21, 0.5) 40px);
+}
+
+.card-border {
+	border: solid 10px white;
+	border-radius: 20px;
+	overflow: hidden;
+	transition: all ease-out 0.2s;
+}
+
+.card-border:hover {
+	transform: scale(1.05);
+}
+
+#biografiaTextoId {
+	#tituloBio {
+		color: map-get($colores, "negro");
+		
+		
+
+	}
+	p {
+		@extend #tituloBio ;
+		border-style: dotted;
+	
+	}
+	
+
+}
+
+
+#bioIdCaja{
+@include caja()
+}
+
+

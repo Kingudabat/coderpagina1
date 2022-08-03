@@ -1,0 +1,6 @@
+@use 'variables';
+
+#galeriaId{
+	background-color: rgb(23, 16, 16);
+	background-image: variables.$fondo-negro-rojo;
+}

@@ -1,0 +1,17 @@
+@use 'variables';
+
+#formId{
+	background-color: rgb(23, 16, 16);
+	background-image: variables.$fondo-negro-rojo;
+    textarea {
+        resize: none;
+    }
+    button{
+        color: #fff;
+        background-color: rgb(0, 5, 3);
+        border-color: #000000
+    }
+}
+
+ 
+ 

@@ -1,0 +1,12 @@
+@use 'variables';
+
+#containerDiscId{
+	background-color: rgb(23, 16, 16);
+	background-image: variables.$fondo-rojo-negro;
+    img{
+        max-width: 200px;
+        text-align: center;
+        
+    }
+}
+ 

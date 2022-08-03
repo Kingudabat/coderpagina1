@@ -1,0 +1,18 @@
+@use 'variables';
+* {
+	margin: 0;
+	padding: 0;
+}
+// var
+
+body{
+	background-color: black;
+	
+
+}
+h1,h2,h3,h4,h5, button{
+	color: variables.$color-letras;
+	font-family: 'Bitter', serif; 
+	justify-content: baseline;
+	
+}

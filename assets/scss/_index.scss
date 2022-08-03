@@ -1,0 +1,46 @@
+@use 'variables';
+
+
+
+.carousel{
+
+	img{
+			min-height: 656px;
+		max-height: 656px;
+		}
+
+	
+}
+#ribbon{
+	background-color: rgb(23, 16, 16);
+	background-image: variables.$fondo-rojo-negro;
+
+}
+#ribbon::after{
+	content:'';
+	background-color: transparent;
+	display: block;
+	height: 20px;
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	left: auto;
+	margin-top: -40px;
+}
+
+#newAlbum{
+	background-color:rgb(79, 1, 1);
+	position: relative;
+	margin-top: -20px;
+	z-index: 10;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	h4{
+		text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
+	}
+}
+
+#footer{
+background-image: url(/assets/img/ska.png);
+background-color: black;
+background-size: 50px 50px;
+}
