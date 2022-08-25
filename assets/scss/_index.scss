@@ -5,16 +5,16 @@
 .carousel{
 
 	img{
-			min-height: 656px;
-		max-height: 656px;
+		max-height: 80vh;
+		text-align: center;
 		}
 
 	
 }
 #ribbon{
 	background-color: rgb(23, 16, 16);
-	background-image: variables.$fondo-rojo-negro;
-
+	background-image: variables.$fondo-negro-rojo;
+	
 }
 #ribbon::after{
 	content:'';
@@ -26,6 +26,7 @@
 	position: relative;
 	left: auto;
 	margin-top: -40px;
+	
 }
 
 #newAlbum{
@@ -37,6 +38,8 @@
 	h4{
 		text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
 	}
+	min-width: 200px;
+	
 }
 
 #footer{

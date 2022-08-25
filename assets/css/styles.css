@@ -13,31 +13,32 @@ h1, h2, h3, h4, h5, button {
   justify-content: baseline;
 }
 
-#bioId {
+.bio-main {
   background-color: rgb(23, 16, 16);
   background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(131, 21, 21, 0.5) 25px, rgba(131, 21, 21, 0.5) 40px);
 }
+.bio-main h1, .bio-main h2 {
+  color: black;
+}
 
-.card-border {
-  border: solid 10px white;
+#bioId #biografiaTextoId {
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+#bioId .card-border {
+  border: solid 5px rgb(8, 8, 8);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+#cardsId .card-border {
+  border: solid 5px rgb(8, 8, 8);
   border-radius: 20px;
   overflow: hidden;
   transition: all ease-out 0.2s;
 }
-
-.card-border:hover {
+#cardsId .card-border:hover {
   transform: scale(1.05);
-}
-
-#biografiaTextoId #tituloBio, #biografiaTextoId p {
-  color: black;
-}
-#biografiaTextoId p {
-  border-style: dotted;
-}
-
-#bioIdCaja {
-  border-radius: 20px;
 }
 
 #formId {
@@ -57,19 +58,28 @@ h1, h2, h3, h4, h5, button {
   background-color: rgb(23, 16, 16);
   background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(131, 21, 21, 0.5) 25px, rgba(131, 21, 21, 0.5) 40px);
 }
+#containerDiscId h1 {
+  color: black;
+}
 #containerDiscId img {
-  max-width: 200px;
   text-align: center;
+}
+#containerDiscId .card {
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
 }
 
 #galeriaId {
   background-color: rgb(23, 16, 16);
   background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(131, 21, 21, 0.5) 25px, rgba(131, 21, 21, 0.5) 40px);
 }
+#galeriaId h1 {
+  color: black;
+}
 
 .carousel img {
-  min-height: 656px;
-  max-height: 656px;
+  max-height: 80vh;
+  text-align: center;
 }
 
 #ribbon {
@@ -95,6 +105,7 @@ h1, h2, h3, h4, h5, button {
   margin-top: -20px;
   z-index: 10;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  min-width: 200px;
 }
 #newAlbum h4 {
   text-shadow: 0 3px 3px rgba(0, 0, 0, 0.6);
