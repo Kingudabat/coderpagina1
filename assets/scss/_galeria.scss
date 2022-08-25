@@ -1,9 +1,10 @@
 @use 'variables';
 
-#galeriaId{
-	h1{
+#galeriaId {
+	h1 {
 		color: black;
 	}
+
 	background-color: rgb(23, 16, 16);
 	background-image: variables.$fondo-negro-rojo;
 }

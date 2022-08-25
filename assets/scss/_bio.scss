@@ -2,43 +2,44 @@
 
 
 
-.bio-main{
+.bio-main {
 	background-color: rgb(23, 16, 16);
 	background-image: variables.$fondo-rojo-negro;
-	h1,h2{
+
+	h1,
+	h2 {
 		color: black;
 	}
 }
 
-#bioId{
-	#biografiaTextoId{
+#bioId {
+	#biografiaTextoId {
 		background: rgba(0, 0, 0, 0.9);
 		color: white;
 
 	}
-	.card-border{
+
+	.card-border {
 		border: solid 5px rgb(8, 8, 8);
 		border-radius: 20px;
 		padding: 30px;
-		
+
 	}
 }
 
-#cardsId{
+#cardsId {
 	.card-border {
 		border: solid 5px rgb(8, 8, 8);
 		border-radius: 20px;
 		overflow: hidden;
 		transition: all ease-out 0.2s;
-		
+
 	}
+
 	.card-border:hover {
 		transform: scale(1.05);
 	}
 
-	
-	
+
+
 }
-
-
-

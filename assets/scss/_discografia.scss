@@ -1,20 +1,22 @@
 @use 'variables';
 
-#containerDiscId{
-	background-color: rgb(23, 16, 16);
-	background-image: variables.$fondo-rojo-negro;
-    h1{
-       color: black;   
+#containerDiscId {
+    background-color: rgb(23, 16, 16);
+    background-image: variables.$fondo-rojo-negro;
+
+    h1 {
+        color: black;
     }
-    img{
-        
+
+    img {
+
         text-align: center;
-        
+
     }
-    .card{
+
+    .card {
         background: rgba(0, 0, 0, 0.9);
         border-radius: 20px;
 
     }
 }
- 
